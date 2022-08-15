@@ -1,0 +1,5 @@
+com/recipe/recipemanagement/service/RecipeServiceTest.class
+com/recipe/recipemanagement/controller/IngredientControllerTest.class
+com/recipe/recipemanagement/controller/RecipeControllerITTest.class
+com/recipe/recipemanagement/RecipeManagementApplicationTests.class
+com/recipe/recipemanagement/service/IngredientServiceTest.class
