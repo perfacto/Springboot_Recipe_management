@@ -1,5 +1,5 @@
 # Getting Started with Spring Boot application
-Let me introduce the technology i used while creating the application are java 11,Maven,H2 DataBase.  
+Let me introduce to the technologies used while creating the application are java 11,Maven,H2 DataBase.  
 
 
 # Creating Spring Boot Recipe Management application
@@ -7,8 +7,8 @@ This application provides REST APIs to manage different recipes and ingredients.
 
 
 ## Database design
-This Application use the in-memory DB in Spring Boot that’s why I choose H2 as a dependency when creating my project. You can always change thing in your pom.xml file and use maven clean build  later (and if you’re using your jar to run the application maven install too).
-This application has three database tables. One table is to store Recipes, another table is to store Ingredients and there is an intermediate table to manage mapping between recipes and ingredients.
+This Application uses the in-memory DB in Spring Boot that’s why I prefer to choose H2 as a dependency when creating my project. You can always change thing in your pom.xml file and use maven clean build later (and if you’re using your jar to run the application maven install too).
+This application has three database tables. One table is used to store Recipes, another table is to store Ingredients and there is an intermediate table to manage mapping between recipes and ingredients.
 
 <img src="./diagram.jpg" alt="Database design"/>
 
